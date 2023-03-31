@@ -1,0 +1,25 @@
+{
+  "name": "explore-gpt",
+  "version": "1.0.0",
+  "description": "an exploration of OpenAI’s GPT language model(s) for Biomedical Informatics",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Center-for-Health-Informatics/explore-gpt.git"
+  },
+  "author": "Rob Ireton <iretonrt@ucmail.uc.edu>",
+  "private": true,
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Center-for-Health-Informatics/explore-gpt/issues"
+  },
+  "homepage": "https://github.com/Center-for-Health-Informatics/explore-gpt#readme",
+  "dependencies": {
+    "openai": "^3.2.1"
+  }
+}
